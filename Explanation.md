@@ -10,9 +10,13 @@ Since I don't know (even if it's possible) how to use haskell inside C or C++ fo
 
 I'm gonna to test the executable binary, and check the standard output.
 
-Basically I'm using the function [system] from : [stdlib.h].
+Three step :
 
-And checking the standard output, as I said previously.
+- I redirect the standard output, thanks to Criterion.
+
+- I'm using the function [system] from : [stdlib.h].
+
+- And checking the standard output, as I said previously.
 
 ---
 
