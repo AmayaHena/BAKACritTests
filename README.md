@@ -1,5 +1,5 @@
 # CritTests
-A stupid way to use Criterion for any language.
+A stupid way to use Criterion for any language (since you can execute a binary!).
 
 Since i wanted to use some tests for my school, using criterion for coverage, i use it in a stupid way :p
 
