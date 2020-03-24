@@ -22,7 +22,7 @@ rm a.out
 
 # compilation criterion test
 cd criterionTest
-g++ -lcriterion test.cpp
+g++ -lcriterion *.cpp
 mv a.out ..
 
 # CRITERION END
