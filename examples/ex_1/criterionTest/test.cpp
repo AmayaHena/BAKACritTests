@@ -14,7 +14,7 @@ Test(string, eq)
 {
     cr_redirect_stdout();
 
-    system("./main");
+    system("./executable");
 
     cr_assert_stdout_eq_str("BAKA <3\n");
 }
