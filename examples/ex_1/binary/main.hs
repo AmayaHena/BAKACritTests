@@ -7,3 +7,4 @@
 
 main = do
     putStrLn "BAKA <3"
+    return 0
