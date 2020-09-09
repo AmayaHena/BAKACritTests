@@ -6,7 +6,7 @@
 rm executable
 
 # compilation
-cd binary && ghc *.hs -o executable &&
+cd binary && ghc -Wall -Werror *.hs -o executable &&
 rm *.hi && rm *.o
 mv executable ..
 cd ..
